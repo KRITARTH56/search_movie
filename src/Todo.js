@@ -45,6 +45,11 @@ const Todo=()=>{
     <>
     <div className="App">
             <h1>Todo List</h1>
+            <div className="cale">
+                <input className="date" type="date"/>
+                <input className="time" type="time"/>
+            </div>
+
             
             <div className="wrap">
                 

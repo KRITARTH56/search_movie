@@ -6,6 +6,7 @@ const Addlists=(props)=>{
     <div className="in" >
     <div className="grid">
     {props.text}
+    {props.date}
     </div>
     <div className="btn2">
     <button className="btn3" onClick={()=>{props.onSelect(props.id);}}>x</button>
